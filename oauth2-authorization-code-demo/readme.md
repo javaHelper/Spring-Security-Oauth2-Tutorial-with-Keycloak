@@ -6,8 +6,10 @@
 
 ```
 docker run -p 8090:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:22.0.1 start-dev
-
 ```
+
+This command starts Keycloak exposed on the local port 8080 and creates an initial admin user with the username `admin` and password `admin`.
+
 
 <img width="1450" alt="Screenshot 2023-08-10 at 7 47 01 PM" src="https://github.com/javaHelper/Spring-Security-Oauth2-Tutorial-with-Keycloak/assets/54174687/8ae3ba9e-4c77-4291-a9d5-bfaf49d78583">
 
