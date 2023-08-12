@@ -24,3 +24,17 @@ This command starts Keycloak exposed on the local port 8080 and creates an initi
 
 
 http://localhost:8090/realms/oauth2-demo-realm/.well-known/openid-configuration
+
+----------
+
+# Final Settings
+
+Valid redirect URIs - http://localhost:8080/login/oauth2/code/oauth2-demo-thymeleaf-client
+
+<img width="972" alt="Screenshot 2023-08-12 at 7 33 02 PM" src="https://github.com/javaHelper/Spring-Security-Oauth2-Tutorial-with-Keycloak/assets/54174687/b788e0de-aa3d-4725-93f5-c63c0ec0bdfe">
+
+<img width="1000" alt="Screenshot 2023-08-12 at 7 32 38 PM" src="https://github.com/javaHelper/Spring-Security-Oauth2-Tutorial-with-Keycloak/assets/54174687/37603f13-a81a-4ac3-95b3-c8e56c32d0f4">
+
+<img width="1043" alt="Screenshot 2023-08-12 at 7 32 25 PM" src="https://github.com/javaHelper/Spring-Security-Oauth2-Tutorial-with-Keycloak/assets/54174687/ff06170f-e6d4-4dba-9d90-b3e4640efde6">
+
+
