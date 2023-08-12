@@ -1,0 +1,23 @@
+server:
+  port: 8083
+  
+  
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          oauth2-client-credentials:
+            client-id: oauth2-client-credentials
+            client-secret: yPwIlBEu6jq35dAIBwSZjdKwJRwaZXAi
+            scope: openid, profile, roles
+            authorization-grant-type: client_credentials
+            redirect-uri: http://localhost:8080/login/oauth2/code/oauth2-client-credentials
+            provider: keycloak
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8090/realms/oauth2-demo-realm
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8090/realms/oauth2-demo-realm
+          jwk-set-uri: http://localhost:8090/realms/oauth2-demo-realm/protocol/openid-connect/certs
